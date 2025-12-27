@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>กฎดิส | เพื่อนหมีมีใจ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      margin:0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: linear-gradient(135deg,#ffdde8,#e6f0ff);
+      color:#333;
+    }
+    .box{
+      max-width:900px;
+      margin:50px auto;
+      background:#ffffff;
+      border-radius:24px;
+      padding:35px;
+      box-shadow:0 15px 40px rgba(0,0,0,.12);
+      text-align:center;
+    }
+    h1{
+      color:#ff6fae;
+      margin-bottom:5px;
+    }
+    .subtitle{
+      color:#888;
+      margin-bottom:30px;
+    }
+    ul{
+      list-style:none;
+      padding:0;
+      text-align:left;
+    }
+    li{
+      background:#fff3f8;
+      margin-bottom:14px;
+      padding:16px 20px;
+      border-radius:16px;
+      border-left:6px solid #ff9ccf;
+    }
+    .accept-btn{
+      margin-top:30px;
+      background: linear-gradient(135deg,#ff7eb3,#ffb3d9);
+      border:none;
+      color:#fff;
+      font-size:18px;
+      padding:14px 30px;
+      border-radius:30px;
+      cursor:pointer;
+      box-shadow:0 8px 20px rgba(255,126,179,.5);
+      transition:.2s;
+    }
+    .accept-btn:hover{
+      transform:scale(1.05);
+    }
+    .success{
+      margin-top:18px;
+      color:#4caf50;
+      font-weight:600;
+      display:none;
+    }
+    footer{
+      margin-top:30px;
+      font-size:14px;
+      color:#aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>🌸 กฎดิสเพื่อนหมีมีใจ 🌸</h1>
+    <div class="subtitle">ดิสนี้เน้นพูดคุย อบอุ่น เป็นกันเอง 💕</div>
+
+    <ul>
+      <li>🐻 คุยกันสุภาพ ใจดีต่อกัน</li>
+      <li>💬 ห้ามดราม่า ทะเลาะ หรือบัฟกัน</li>
+      <li>✨ ไม่ด่า ไม่เหยียด ไม่ทำร้ายจิตใจใคร</li>
+      <li>🐰 ไม่สแปม ไม่ป่วนห้อง</li>
+      <li>🌷 ห้ามเนื้อหา 18+ หรือผิดกฎหมาย</li>
+      <li>📢 ไม่โฆษณาโดยไม่ขออนุญาต</li>
+      <li>🍀 ใช้ห้องให้ถูกประเภท</li>
+      <li>🧸 เชื่อฟังทีมงาน เพื่อความน่ารักของดิส</li>
+      <li>🌼 เป็นตัวเองได้ แต่อย่าลืมคิดถึงคนอื่น</li>
+      <li>😊 เข้ามาแล้วขอให้มีความสุข</li>
+    </ul>
+
+    <button class="accept-btn" onclick="acceptRules()">💖 ยอมรับกฎ</button>
+    <div class="success" id="successText">✔️ ขอบคุณที่ยอมรับกฎ ยินดีต้อนรับนะ!</div>
+
+    <footer>
+      💗 เพื่อนหมีมีใจ | Discord Community 💗
+    </footer>
+  </div>
+
+<script>
+  function acceptRules(){
+    document.getElementById("successText").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
